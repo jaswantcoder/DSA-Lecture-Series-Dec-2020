@@ -1,0 +1,80 @@
+Coding club NIT Meghalaya conducts the special contest. In this contest, there are some fixed slots in which participants can take part. In each slot, a variable number of students get results. Those who submitted first, they get result first
+
+There are N slots, in each slot M[i] number of students take part and R[i] number of students get the result. Others who did not get result in one slot their results are pending and if the results are declared in next slot, they will get the priority.
+Your task is to print the list of students who got the result.
+
+Input Format
+
+N
+
+M[0]
+S[0] s[1] s[2]... s[M[0]-1]
+R[0]
+
+M[1]
+S[0] s[1] s[2]... s[M[0]-1]
+R[1]
+.
+.
+.
+M[N-1]
+S[0] s[1] s[2]... s[M[0]-1]
+R[N-1]
+
+
+N= number of slots
+M[i] = number of students in ith slot
+S[i] = name of ith student in that slot
+R[i] = number of students whom results will be declared
+
+Constraints
+
+1<=N<=100
+1<=M<=100
+0<=R<=100
+
+Output Format
+
+P
+student[0]
+student[1]
+student[2]
+.
+.
+student[p-1]
+P = number of students who got result
+next p lines are the name of students who got result.
+
+Sample Input 0
+
+4
+3
+bhawna akhilesh ram
+1
+4
+avishek abu  kartikey vineet
+3
+5
+shashank mondal nishant meenakshi raushan
+3
+1
+aviral
+2
+Sample Output 0
+
+9
+bhawna
+akhilesh
+ram
+avishek
+abu
+kartikey
+vineet
+shashank
+mondal
+Explanation 0
+
+1st slot: Only bhawna get result
+2nd slot: akhilesh, ram and avishek get results
+3rd slot: abu, kartikey and vineet get results
+4th slot: shashank and mondal get results
