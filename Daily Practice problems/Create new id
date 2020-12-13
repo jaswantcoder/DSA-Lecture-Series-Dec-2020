@@ -1,0 +1,39 @@
+Coding club conducts the live events on Google meet. In google meet, let us assume there is an id assigned to each attendee when they join it. One day lecturer asked Dorababu to remember this id. Dorababu was not serious and he forgot the sequence of characters in the id. But he remembered all the characters in id.
+Now he is assigned a new id with the same characters but sequence contains the characters in lexicographical order.
+Can you create new id for all the students who forgot their id?
+
+Note : Lexicographical means in dictionary order. For example- Lexicographical order of "dorababu" is "aabbdoru"
+
+Input Format
+
+N
+id1
+id2
+id3
+.
+.
+idn
+N is the number of students who forgot their ids.
+id[i] is a string or sequence of characters with no space
+
+Constraints
+
+all the characters in id are in lower case.
+
+Output Format
+
+new id1
+new id2
+new id3
+.
+.
+new idn
+Sample Input 0
+
+2
+dorababu
+coding
+Sample Output 0
+
+aabbdoru
+cdgino
