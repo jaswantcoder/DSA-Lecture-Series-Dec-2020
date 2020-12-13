@@ -1,0 +1,43 @@
+Coding Club NIT Meghalaya conducts the quiz after each lecture. All the students are given 5 minutes to submit the quiz. Club declares the result in whatsapp group.
+
+All the responses are listed in Google sheet. There are two columns in sheet - email id and score.
+Your task is to print the roll numbers in ascending order of their score.
+
+Input Format
+
+N
+email-id[0]  score[0]
+email-id[1]  score[1]
+email-id[2]  score[2]
+.               .
+.               .
+email-id[n-1]   score[n-1]
+Here, N= number of rows
+Next each line have two input data- email id and score
+
+Constraints
+
+emailid format: roll_no@nitm.ac.in
+0<=score<=10
+
+Output Format
+
+roll-no[j1]
+roll-no[j2]
+roll-no[j3]
+roll-no[jn]
+Sample Input 0
+
+5
+b19cs022@nitm.ac.in 8
+b19ec002@nitm.ac.in 6
+b19cs036@nitm.ac.in 9
+b19cs039@nitm.ac.in 10
+b19me024@nitm.ac.in 7
+Sample Output 0
+
+b19ec002
+b19me024
+b19cs022
+b19cs036
+b19cs039
