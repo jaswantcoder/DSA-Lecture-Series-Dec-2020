@@ -1,0 +1,75 @@
+Coding club NIT Meghalaya conducts the quiz. Students have to attempt and submit this quiz. Some students start quiz at time t=0, some of them starts at t=1, t=2, t=3 and so on....
+Whenever someone completes the quiz, they have to submit it.
+At last, some students could not submit the quiz. Your task is to print the list of students who could not submit the quiz.
+
+If case=1, You have to add the students in list.
+If case=2, delete those students from list.
+If case=3, Time is over, print the list of students who could not submit the quiz.
+
+Input Format
+
+T
+1 
+N 
+s1 s2 s3.....sN
+
+2
+N
+s1 s2 s3.....sN
+
+1
+N
+s1 s2 s3.....sN
+
+3
+
+Constraints
+
+1<=T<=10
+1<=N<=10
+0<=|s|<=10
+
+T= number of cases
+N = number of student to add or delete from list
+s is roll_no of student
+
+Output Format
+
+M
+r1 r2 r3 ... rm
+M = number of students who did not submit quiz
+r1, r2 ... is the roll number of those students.
+
+Sample Input 0
+
+6
+1 4
+b19cs001 b19cs002 b19cs003 b19cs004
+
+2 2
+b19cs002 b19cs004
+
+1 2
+b19cs005 b19cs006
+
+1 2
+b19me001 b19me002
+
+2 1
+b19cs006
+
+3
+Sample Output 0
+
+5
+b19cs001 b19cs003 b19cs005 b19me001 b19me002
+Explanation 0
+
+There a total of 6 cases,
+In each case, first line describes the case type and number of students to add or delete from list.
+At t=0 : b19cs001 b19cs002 b19cs003 b19cs004 started to attempted quiz
+At t=1 : b19cs001 b19cs003 are still giving quiz
+At t=2 : b19cs001 b19cs003 b19cs005 b19cs006 are giving quiz
+At t=3 : b19cs001 b19cs003 b19cs005 b19cs006 b19me001 b19me002 are giving quiz
+At t=4 : b19cs001 b19cs003 b19cs005 b19me001 b19me002 are giving quiz
+At t=5 : In last case, we have to print the list, therefore there are a total of 5 students who did not submit quiz
